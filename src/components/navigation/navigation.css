@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0.2em;
+}
+.menu > * + * {
+  margin-left: 1em;
+}
+.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  transition: color 0.2s linear;
+  font-weight: bold;
+}
+.menu .active {
+  color: aqua;
+}
+.menu a:hover {
+  color: aqua;
+}

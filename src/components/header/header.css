@@ -1,0 +1,30 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.header {
+  background-color: navy;
+}
+
+.header__logo {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+  transition: color 0.2s linear;
+  padding: 10px;
+}
+.header__logo:hover {
+  color: aqua;
+}
+.header__role {
+  color: aqua;
+  padding: 10px;
+  align-self: flex-end;
+}
+.header__role-name {
+  text-transform: uppercase;
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+}

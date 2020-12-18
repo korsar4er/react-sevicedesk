@@ -1,0 +1,69 @@
+.page-header {
+  margin: 0;
+}
+.page-table {
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+.page-table th,
+.page-table td {
+  border-bottom: gray 1px solid;
+}
+.page-form {
+  display: flex;
+  flex-direction: column;
+}
+.page-form *:focus {
+  outline-color: navy;
+}
+.page-form label {
+  font-size: 0.8rem;
+  color: gray;
+  margin-top: 0.8em;
+}
+.page-form input,
+.page-form select,
+.page-form textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  border: darkgray 1px solid;
+  border-radius: 5px;
+  padding: 0.3em;
+}
+.page-form select {
+  max-width: 10em;
+}
+
+.page-button {
+  text-transform: uppercase;
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.6em 1em;
+  cursor: pointer;
+}
+.page-button:hover {
+  color: aqua;
+}
+.page-actions {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 1em;
+}
+.page-actions > * + * {
+  margin-right: 0.5em;
+}
+.pages-create {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  padding: 0.4em 0.6em;
+}
+.page-table-message {
+  text-align: center;
+}

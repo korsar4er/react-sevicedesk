@@ -1,0 +1,9 @@
+.request-edit-status__table {
+  width: 100%;
+}
+
+.request-edit-status__table td:nth-child(1) {
+  min-width: 10em;
+  color: gray;
+  vertical-align: top;
+}

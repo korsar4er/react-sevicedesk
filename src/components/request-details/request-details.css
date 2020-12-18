@@ -1,0 +1,8 @@
+.request-details__table {
+  width: 100%;
+}
+.request-details__table td:nth-child(1) {
+  min-width: 10em;
+  color: gray;
+  vertical-align: top;
+}

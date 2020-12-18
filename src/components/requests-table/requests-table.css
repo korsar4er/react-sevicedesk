@@ -1,0 +1,7 @@
+.requests__table {
+  width: 100%;
+  text-align: center;
+}
+.requests__actions > * + * {
+  margin-left: 5px;
+}

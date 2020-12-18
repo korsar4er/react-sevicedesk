@@ -1,0 +1,11 @@
+.status-count-table {
+  min-width: 300px;
+}
+.status-count-table th,
+.status-count-table td {
+  border-bottom: gray 1px solid;
+}
+.status-count-table__count {
+  text-align: center;
+  font-weight: bold;
+}
