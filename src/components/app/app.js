@@ -16,7 +16,7 @@ import {
   EditRequestStatusPage,
 } from "../pages";
 import AppContext from "../app-context";
-import * as routes from "../../constants";
+import { routes } from "../../constants";
 import { useInitRole } from "../../hooks";
 
 import "./app.css";

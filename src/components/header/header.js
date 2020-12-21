@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 
 import AppContext from "../app-context";
-import * as routes from "../../constants";
+import { routes } from "../../constants";
 
 import "./header.css";
 

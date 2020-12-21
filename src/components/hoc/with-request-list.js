@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 
 import { useAppContext, useRequestActions } from "../../hooks";
-import * as routes from "../../constants";
+import { routes } from "../../constants";
 
 const withRequestList = (Component) => {
   const Wrapped = (props) => {

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { withRequestList } from "../hoc";
-import * as routes from "../../constants";
+import { routes } from "../../constants";
 
 import "./requests-table.css";
 
